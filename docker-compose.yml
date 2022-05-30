@@ -3,7 +3,7 @@ version: '3.3'
 services:
   app:
     container_name: api-node
-    command: npm test -- --runInBand --detectOpenHandles
+    command: npm start
     image: dockerfile
     build: .
     env_file:
